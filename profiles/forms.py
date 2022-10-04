@@ -4,7 +4,6 @@ from .models import Profile
 
 class ProfileForm(forms.Form):
     name = forms.CharField(max_length=30, label='Name')
-    location = forms.CharField(max_length=80, label='Location')
     image = forms.ImageField(required=False)
 
     def clean(self):

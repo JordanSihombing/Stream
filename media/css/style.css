@@ -9,6 +9,18 @@
     transition: 0.3s;
 }
 
+.twitter-social-color {
+    color: #00acee;
+}
+
+.facebook-social-color {
+    color: #3b5998;
+}
+
+.reddit-social-color {
+    color: #FF5700;
+}
+
 .video-icons {
     font-size: 1.8rem;
     transition: 0.3s;
@@ -70,12 +82,12 @@
 
 .search-button {
     border: 0;
-    background-color: rgba(0,0,0,0);
+    background-color: whitesmoke;
     font-size: 1.5rem;
     transition: 0.3s;
 }
 
 .search-button:hover {
-    color: #555;
+    color: whitesmoke;
     transition: 0.3s;
 }
